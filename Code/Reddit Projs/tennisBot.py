@@ -91,12 +91,10 @@ def no_matchups_response(p1, p2):
 
 
 bot = praw.Reddit(user_agent='tennisBot v0.1',
-                  client_id='KCeWX6_08vz_Dg',
-                  client_secret='-gVfboq7GhvaWahjY6z4_SOIf68',
-                  username='littlepanda888',
-                  password='pikaprincess8')
-
-
+                  client_id='insert client id',
+                  client_secret='insert client secret',
+                  username='insert Reddit username',
+                  password='insert Reddit password')
 # set up PRAW
 subreddit = bot.subreddit('testingground4bots')
 comments = subreddit.stream.comments()
